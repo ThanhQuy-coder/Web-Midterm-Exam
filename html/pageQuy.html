@@ -15,6 +15,16 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"
     />
+    <!-- Linking Google fonts for icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward"
+    />
+    <!-- Linking SwiperJS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- Link js: Make the text move -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
@@ -37,8 +47,8 @@
         <a href="#home" style="--i: 1" class="active">Home</a>
         <a href="#about" style="--i: 2">About</a>
         <a href="#language-and-skills" style="--i: 3">Language & Skills</a>
-        <a href="#" style="--i: 4">Certificates & Awards</a>
-        <a href="#" style="--i: 5">Project</a>
+        <a href="#certificates-awards" style="--i: 4">Certificates & Awards</a>
+        <a href="#projects" style="--i: 5">Projects</a>
       </nav>
     </header>
 
@@ -138,6 +148,7 @@
         <img src="/images/quy/avatar2.png" alt="avatar2" loading="lazy" />
       </div>
     </section>
+
     <!-- language & Skills -->
     <section class="language-and-skills" id="language-and-skills">
       <!-- Language -->
@@ -295,6 +306,99 @@
         </div>
       </section>
     </section>
+
+    <!-- Certificates & Awards -->
+    <section class="certificates-awards" id="certificates-awards">
+      <div class="container">
+        <h1 class="sub-title"><span>Certificates & Awards</span></h1>
+        <div class="contents">
+          <div class="content">
+            <i class="bx bx-sad" style="color: #00eeff"></i>
+            <h2>Hmmm,</h2>
+            <p>
+              Currently none, but always striving to learn and achieve more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section id="projects">
+      <div class="container swiper">
+        <h1 class="sub-title">My<span> Projects</span></h1>
+        <div class="card-wrapper">
+          <ul class="project-list swiper-wrapper">
+            <li class="project swiper-slide">
+              <a href="#" class="project-link">
+                <img
+                  src="/images/quy/Koi_Care_system.png"
+                  alt="project-img"
+                  class="project-img"
+                  width="500px"
+                />
+                <p class="badge developer">Developer</p>
+                <h2 class="project-title">Koi Care System At Home</h2>
+                <button class="card-button material-symbols-outlined">
+                  arrow_forward
+                </button>
+              </a>
+            </li>
+            <li class="project swiper-slide">
+              <a href="#" class="project-link">
+                <img
+                  src="/images/quy/app-chat-mobile.png"
+                  alt="project-img"
+                  class="project-img"
+                  width="500px"
+                />
+                <p class="badge frontend">Frontend</p>
+                <h2 class="project-title">App chat mobile</h2>
+                <button class="card-button material-symbols-outlined">
+                  arrow_forward
+                </button>
+              </a>
+            </li>
+            <li class="project swiper-slide">
+              <a href="#" class="project-link">
+                <img
+                  src="/images/quy/simple-chat.png"
+                  alt="project-img"
+                  class="project-img"
+                  width="500px"
+                />
+                <p class="badge backend">Backend</p>
+                <h2 class="project-title">Simple chat (Java)</h2>
+                <button class="card-button material-symbols-outlined">
+                  arrow_forward
+                </button>
+              </a>
+            </li>
+            <li class="project swiper-slide">
+              <a href="#" class="project-link">
+                <img
+                  src="/images/quy/dating-website.png"
+                  alt="project-img"
+                  class="project-img"
+                  width="500px"
+                />
+                <p class="badge backend">Backend</p>
+                <h2 class="project-title">Dating Website</h2>
+                <button class="card-button material-symbols-outlined">
+                  arrow_forward
+                </button>
+              </a>
+            </li>
+          </ul>
+
+          <div class="swiper-pagination"></div>
+          <div class="swipper-slide-button swiper-button-prev"></div>
+          <div class="swipper-slide-button swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Linking SwiperJS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/js/pageQuy.js"></script>
   </body>
 </html>
