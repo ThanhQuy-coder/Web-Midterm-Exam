@@ -36,6 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
 new Swiper(".card-wrapper", {
   loop: true,
   spaceBetween: 30,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
 
   // Pagination bullets
   pagination: {
