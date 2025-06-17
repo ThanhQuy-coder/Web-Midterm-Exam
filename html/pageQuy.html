@@ -11,17 +11,23 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"
+    />
     <!-- Link js: Make the text move -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
     <!-- banner -->
     <div class="stars"></div>
-    <div class="shooting-star"></div>
-    <div class="shooting-star"></div>
-    <div class="shooting-star"></div>
-    <div class="shooting-star"></div>
-    <div class="shooting-star"></div>
+    <div class="shooting-star-container">
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+    </div>
 
     <!-- header -->
     <header class="header">
@@ -30,8 +36,9 @@
       <nav class="navbar">
         <a href="#home" style="--i: 1" class="active">Home</a>
         <a href="#about" style="--i: 2">About</a>
-        <a href="#" style="--i: 3">Langue and skills</a>
-        <a href="#" style="--i: 4">Project</a>
+        <a href="#language-and-skills" style="--i: 3">Language & Skills</a>
+        <a href="#" style="--i: 4">Certificates & Awards</a>
+        <a href="#" style="--i: 5">Project</a>
       </nav>
     </header>
 
@@ -72,7 +79,7 @@
     <!-- about me -->
     <section class="about" id="about">
       <div class="about-img">
-        <img src="/images/quy/avatar.png" alt="avatar" />
+        <img src="/images/quy/avatar.png" alt="avatar" loading="lazy" />
       </div>
       <div class="about-text">
         <h2>About <span>Me</span></h2>
@@ -84,12 +91,18 @@
           myself in this field.
         </p>
         <ul class="infor-list">
-          <li>Full name: Huynh Thanh Quy</li>
-          <li>Date of birth: 2005</li>
-          <li>Address: Ho Chi Minh city</li>
-          <li>Email: quyht2908@gmail.com</li>
+          <li><strong>Full name:</strong> Huynh Thanh Quy</li>
+          <li><strong>Date of birth:</strong> 29.08.2005</li>
+          <li><strong>Address:</strong> Ho Chi Minh city</li>
+          <li><strong>Email:</strong> quyht2908@gmail.com</li>
         </ul>
-        <!-- career goals -->
+      </div>
+    </section>
+
+    <!-- career goals and interest -->
+    <section class="goals-and-interests">
+      <div class="content">
+        <h2>Career Objective</h2>
         <p>
           My career goal is to become a professional web developer, proficient
           in both frontend and backend development. In addition, I aspire to
@@ -99,15 +112,60 @@
           projects to gain hands-on experience, with the long-term aim of
           becoming a well-rounded developer.
         </p>
-        <!-- interest -->
+        <h2>Hobbies & Interests</h2>
         <p>
-          I have a strong passion for football, programming, and literature.
-          Football helps me build teamwork and agility; programming is my
-          greatest passion, where I can be creative and solve problems; and
-          literature allows me to relax and nurtures both my thinking and
-          emotional depth.
+          I have a strong passion for
+          <strong>football, programming, and literature.</strong>
         </p>
+        <ul class="infor-list">
+          <li>
+            <i class="bx bx-football" style="color: powderblue"></i> Football
+            helps me build teamwork and agility;
+          </li>
+          <li>
+            <i class="bx bx-code-alt" style="color: #0ef"></i>
+            Programming is my greatest passion, where I can be creative and
+            solve problems;
+          </li>
+          <li>
+            <i class="bx bx-book" style="color: brown"></i>
+            Literature allows me to relax and nurtures both my thinking and
+            emotional depth.
+          </li>
+        </ul>
       </div>
+      <div class="image">
+        <img src="/images/quy/avatar2.png" alt="avatar2" loading="lazy" />
+      </div>
+    </section>
+    <!-- language & Skills -->
+    <section class="language-and-skills" id="language-and-skills">
+      <div class="language">
+        <div class="container">
+          <h1 class="sub-title">My <span>Language</span></h1>
+          <div class="language-list">
+            <div>
+              <span class="fi fi-vn"></span>
+              <h2>Vietnamese</h2>
+              <p>
+                Vietnamese is my native language. I use it in daily life and
+                work.
+              </p>
+              <a href="#" class="read">Learn More</a>
+            </div>
+            <div>
+              <span class="fi fi-gb"></span>
+              <h2>English</h2>
+              <p>
+                English is my second language. I use it for study and
+                communication. My current level is B1.1 (intermediate).
+              </p>
+              <a href="#" class="read">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills"></div>
     </section>
     <script src="/js/pageQuy.js"></script>
   </body>
