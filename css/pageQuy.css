@@ -1109,7 +1109,6 @@ form textarea {
     opacity: 1;
   }
 }
-
 @keyframes slideLeft {
   0% {
     transform: translateX(100px);
@@ -1120,7 +1119,6 @@ form textarea {
     opacity: 1;
   }
 }
-
 @keyframes slideTop {
   0% {
     transform: translateY(100px);
