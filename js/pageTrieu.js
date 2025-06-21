@@ -1,16 +1,3 @@
-// === LOADING SCREEN ===
-// window.addEventListener("load", () => {
-//   const loadingScreen = document.querySelector(".loading-screen")
-//   if (loadingScreen) {
-//     setTimeout(() => {
-//       loadingScreen.classList.add("fade-out")
-//       setTimeout(() => {
-//         loadingScreen.style.display = "none"
-//       }, 500)
-//     }, 1000)
-//   }
-// })
-
 // === PARTICLES BACKGROUND ===
 function createParticles() {
   const particlesContainer = document.querySelector(".particles")
