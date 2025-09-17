@@ -7,6 +7,13 @@ var typed = new Typed(".text", {
   loop: true,
 });
 
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
 // The shooting star effect only starts running when scrolling
 // to the banner section, and turns off when exiting that area.
 document.addEventListener("DOMContentLoaded", () => {
